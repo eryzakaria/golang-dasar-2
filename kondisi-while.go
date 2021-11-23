@@ -26,14 +26,36 @@ func main() {
 		fmt.Println("Pancen Goblok")
 	}
 
-	none = 7
+	none = 8
 
 	switch {
 	case none == 8:
 		fmt.Println("Perfect")
+		fallthrough
 	case (none <= 7) && (none > 3):
 		fmt.Println("Awesome")
+		fallthrough
 	default:
 		fmt.Println("Cukup Goblok")
 	}
+
+	none = 3
+
+	if none >= 7 {
+		switch none {
+		case 10:
+			fmt.Println("Perfect")
+		default:
+			fmt.Println("Nice")
+		}	
+	} else {
+		if none >= 6 || none >= 5{
+			fmt.Println("Kurang")
+		} else if none == 4 || none == 3{
+			fmt.Println("Yakin Kurang")
+		} else{
+			fmt.Println("Goblok!")
+		}
+	}
+	
 }
