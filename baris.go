@@ -19,6 +19,6 @@ func main() {
 	fmt.Scanln(&n)
 
 	Un = a + (n - 1)
-	fmt.Println("Hasil", Un)
+	fmt.Println("Jumlah Suku ", Un)
 
 }

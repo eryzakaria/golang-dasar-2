@@ -336,4 +336,5 @@ func main() {
 
 		fmt.Println("Bilangan Ganjil", i)
 	}
+
 }
