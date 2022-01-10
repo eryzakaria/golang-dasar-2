@@ -1,5 +1,11 @@
 package main
 
+import (
+	belajargolang "belajar-golang/belajar-golang"
+	"fmt"
+)
+
 func main() {
-	helper.sayHello("Ery")
+	result := belajargolang.SayHello("Ery")
+	fmt.Println(result)
 }
